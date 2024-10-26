@@ -1,7 +1,7 @@
-@import url(images/font.ttf);
+@import url(font.ttf);
 @font-face {
     font-family: 'Untitled1';
-    src: url(images/font.ttf);
+    src: url(font.ttf);
 }
 
 *{
