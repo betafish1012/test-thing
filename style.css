@@ -1,7 +1,7 @@
 @import url(http://www.dentitul.com/images/font.ttf);
 @font-face {
     font-family: 'Untitled1';
-    src: url(http://www.dentitul.com/images/font.ttf);
+    src: url(http://www.dentitul.com/images/font.ttf) format("truetype");
 }
 
 *{
