@@ -1,0 +1,69 @@
+@import url(https://www.dentitul.com/images/newfont.ttf);
+@font-face {
+    font-family: 'Dentitul';
+    src: url(https://www.dentitul.com/images/font.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 350%;
+    font-size: 0.75rem;
+    font-family: "Dentitul";
+    background-color: rgb(15, 15, 15);
+}
+
+div#Dentitul_Logo{
+    display: block;
+    margin: auto;
+    top:0;
+    z-index: 1;
+    overscroll-behavior: none;
+}
+
+div.text2{
+    text-align: center;
+    align-self: center;
+    margin:auto;
+    top: 900px;
+    gap: 10px;
+    position: relative;
+    color: white;
+}
+
+div.container{
+    width: 1600px;
+    word-wrap: normal;
+    margin: auto;
+    gap: 10px;
+}
+
+div#text1{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    word-wrap: normal;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    color: white;
+    top: 70px;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: 1.5;
+}
+
+@media(max-width: 1600px){
+    div.container{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024){
+    div#text1{
+        padding: 10px 0;
+        gap: 10px;
+    }
+}
