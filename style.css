@@ -1,7 +1,7 @@
-@import url(https://www.dentitul.com/images/font.ttf);
+@import url(https://www.dentitul.com/images/newfont.ttf);
 @font-face {
-    font-family: 'Untitled1';
-    src: url(https://www.dentitul.com/images/font.ttf);
+    font-family: 'Dentitul';
+    src: url(https://www.dentitul.com/images/newfont.ttf);
 }
 
 *{
@@ -9,22 +9,27 @@
     margin: 0;
 }
 body{
-    height: 1000px;
+    height: 350%;
     font-size: 0.75rem;
-    font-family: "Untitled1";
+    font-family: "Dentitul";
     background-color: rgb(15, 15, 15);
 }
 
 div#Dentitul_Logo{
-    position: sticky;
+    display: block;
+    margin: auto;
     top:0;
     z-index: 1;
     overscroll-behavior: none;
 }
 
 div.text2{
-    position: absolute;
-    top: 990px;
+    text-align: center;
+    align-self: center;
+    margin:auto;
+    top: 900px;
+    gap: 10px;
+    position: relative;
     color: white;
 }
 
@@ -36,6 +41,7 @@ div.container{
 }
 
 div#text1{
+    text-align: center;
     align-self: center;
     width: 100%;
     word-wrap: normal;
@@ -49,7 +55,7 @@ div#text1{
     line-height: 1.5;
 }
 
-@media(max-width: 2000px){
+@media(max-width: 1600px){
     div.container{
         width: 100%;
     }
